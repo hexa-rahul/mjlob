@@ -1,0 +1,16 @@
+[12-Mar-2021 09:52:09 UTC] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home1/bigtrhhh/public_html/mjlob/swagger/json/resources.php on line 12
+[12-Mar-2021 09:52:09 UTC] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home1/bigtrhhh/public_html/mjlob/swagger/json/resources.php on line 13
+[12-Mar-2021 12:52:54 UTC] PHP Warning:  array_merge(): Expected parameter 8 to be an array, null given in /home1/bigtrhhh/public_html/mjlob/swagger/json/resources.php on line 13
+[12-Mar-2021 12:53:22 UTC] PHP Warning:  array_merge(): Expected parameter 8 to be an array, null given in /home1/bigtrhhh/public_html/mjlob/swagger/json/resources.php on line 13
+[12-Mar-2021 12:55:04 UTC] PHP Warning:  array_merge(): Expected parameter 8 to be an array, null given in /home1/bigtrhhh/public_html/mjlob/swagger/json/resources.php on line 13
+[12-Mar-2021 13:03:21 UTC] PHP Parse error:  syntax error, unexpected '$category' (T_VARIABLE), expecting ')' in /home1/bigtrhhh/public_html/mjlob/swagger/json/resources.php on line 23
+[12-Mar-2021 13:03:28 UTC] PHP Parse error:  syntax error, unexpected '$category' (T_VARIABLE), expecting ')' in /home1/bigtrhhh/public_html/mjlob/swagger/json/resources.php on line 23
+[12-Mar-2021 13:04:25 UTC] PHP Parse error:  syntax error, unexpected '$category' (T_VARIABLE), expecting ')' in /home1/bigtrhhh/public_html/mjlob/swagger/json/resources.php on line 23
+[12-Mar-2021 13:04:28 UTC] PHP Parse error:  syntax error, unexpected '$category' (T_VARIABLE), expecting ')' in /home1/bigtrhhh/public_html/mjlob/swagger/json/resources.php on line 23
+[12-Mar-2021 13:05:21 UTC] PHP Parse error:  syntax error, unexpected '$category' (T_VARIABLE), expecting ')' in /home1/bigtrhhh/public_html/mjlob/swagger/json/resources.php on line 23
+[12-Mar-2021 13:05:23 UTC] PHP Parse error:  syntax error, unexpected '$category' (T_VARIABLE), expecting ')' in /home1/bigtrhhh/public_html/mjlob/swagger/json/resources.php on line 23
+[12-Mar-2021 13:13:34 UTC] PHP Parse error:  syntax error, unexpected '$category' (T_VARIABLE), expecting ')' in /home1/bigtrhhh/public_html/mjlob/swagger/json/resources.php on line 24
+[12-Mar-2021 13:13:36 UTC] PHP Parse error:  syntax error, unexpected '$category' (T_VARIABLE), expecting ')' in /home1/bigtrhhh/public_html/mjlob/swagger/json/resources.php on line 24
+[12-Mar-2021 13:14:10 UTC] PHP Warning:  array_merge(): Expected parameter 8 to be an array, null given in /home1/bigtrhhh/public_html/mjlob/swagger/json/resources.php on line 13
+[12-Mar-2021 13:51:02 UTC] PHP Warning:  array_merge(): Expected parameter 8 to be an array, null given in /home1/bigtrhhh/public_html/mjlob/swagger/json/resources.php on line 13
+[12-Mar-2021 13:51:02 UTC] PHP Warning:  array_merge(): Expected parameter 8 to be an array, null given in /home1/bigtrhhh/public_html/mjlob/swagger/json/resources.php on line 14

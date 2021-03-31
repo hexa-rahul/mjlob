@@ -1,0 +1,45 @@
+<html>
+	
+	<head>
+		<script src="http://3.128.114.38:8005/socket.io/socket.io.js"></script>
+		<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+		
+	</head>
+	<body>
+		<input type="text" name="message" id="message" onkeyup="isTyping()">
+		<input type="button" name="Send" id="Send" onclick="sendMessage()">
+	</body>
+	<script type="text/javascript">
+		
+		$(function(){
+			socket = io.connect('http://3.128.114.38:8005');
+			join(2);
+			function join(userId){
+				socket.emit('register',{userId:userId})
+			}
+			socket.emit('check_user_status',{userId:3})
+			socket.on('user_status',function(data){
+				console.log(data)
+				//{ status: "online", id: 2 }
+			})
+			socket.on('is_typing',function(data){
+				console.log(data)
+				//{ to: 2, from: 3 }
+			})
+			socket.on('new_msg_recieved',function(data){
+				console.log(data)
+				//{ to: 2, from: 3, message:"test", url:"url",type:'type' }
+			})
+		})
+		function isTyping(){
+			console.log('typinggg')
+			socket.emit('typing',{to:3,from:2})
+		}
+		function sendMessage(){
+			var message = $('#message').val();
+			console.log('send message')
+			socket.emit('send_message',{to:3,from:2, message:message})
+			//url:url, type:'file'
+		}
+	</script>
+</html>

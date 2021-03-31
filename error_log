@@ -1,0 +1,42 @@
+[03-Feb-2021 13:23:28 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home1/bigtrhhh/public_html/mjlob/rahalati/app/Models/MasterCategory.php on line 4
+[03-Feb-2021 13:23:38 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home1/bigtrhhh/public_html/mjlob/rahalati/app/Models/MasterCategory.php on line 4
+[03-Feb-2021 13:24:36 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home1/bigtrhhh/public_html/mjlob/rahalati/app/Models/MasterCategory.php on line 4
+[03-Feb-2021 13:25:31 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home1/bigtrhhh/public_html/mjlob/rahalati/app/Models/MasterCategory.php on line 4
+[03-Feb-2021 13:25:35 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home1/bigtrhhh/public_html/mjlob/rahalati/app/Models/MasterCategory.php on line 4
+[05-Feb-2021 09:42:58 UTC] PHP Fatal error:  Cannot use Illuminate\Http\Request as Request because the name is already in use in /home1/bigtrhhh/public_html/MJLOB/app/Http/Controllers/Admin/SettingController.php on line 14
+[12-Feb-2021 08:01:43 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home1/bigtrhhh...', 35, Array)
+#1 /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home1/bigtrhhh/public_html/ in /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[12-Feb-2021 08:01:43 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[12-Feb-2021 08:01:47 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home1/bigtrhhh...', 35, Array)
+#1 /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home1/bigtrhhh/public_html/ in /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[12-Feb-2021 08:01:47 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[12-Feb-2021 08:01:53 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home1/bigtrhhh...', 35, Array)
+#1 /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home1/bigtrhhh/public_html/ in /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[12-Feb-2021 08:01:53 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[12-Feb-2021 09:07:32 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home1/bigtrhhh...', 35, Array)
+#1 /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Router->group(Array, Array)
+#5 /home1/bigtrhhh/public_html/ in /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[12-Feb-2021 09:07:32 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/bigtrhhh/public_html/mjlob/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
